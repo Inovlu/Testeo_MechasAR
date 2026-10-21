@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 293,
+    "left": 0,
+    "width": 8121,
+    "height": 10828,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 11415
+  },
+  "imagePath": "image-targets/Roque_Casarella-MECHA_diseno_v1_nombre_luminance.png",
+  "metadata": null,
+  "name": "Roque_Casarella-MECHA_diseno_v1_nombre",
+  "resources": {
+    "originalImage": "Roque_Casarella-MECHA_diseno_v1_nombre_original.png",
+    "croppedImage": "Roque_Casarella-MECHA_diseno_v1_nombre_cropped.png",
+    "thumbnailImage": "Roque_Casarella-MECHA_diseno_v1_nombre_thumbnail.png",
+    "luminanceImage": "Roque_Casarella-MECHA_diseno_v1_nombre_luminance.png"
+  },
+  "created": 1792381946647,
+  "updated": 1792381946647
+}

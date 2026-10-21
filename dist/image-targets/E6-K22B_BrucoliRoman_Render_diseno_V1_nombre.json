@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 331,
+    "left": 0,
+    "width": 8214,
+    "height": 10952,
+    "isRotated": false,
+    "originalWidth": 8214,
+    "originalHeight": 11614
+  },
+  "imagePath": "image-targets/E6-K22B_BrucoliRoman_Render_diseno_V1_nombre_luminance.png",
+  "metadata": null,
+  "name": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre",
+  "resources": {
+    "originalImage": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre_original.png",
+    "croppedImage": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre_cropped.png",
+    "thumbnailImage": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre_thumbnail.png",
+    "luminanceImage": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre_luminance.png"
+  },
+  "created": 1792381898460,
+  "updated": 1792381898460
+}

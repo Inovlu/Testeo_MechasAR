@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 434,
+    "left": 0,
+    "width": 8134,
+    "height": 10845,
+    "isRotated": false,
+    "originalWidth": 8134,
+    "originalHeight": 11715
+  },
+  "imagePath": "image-targets/FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre_luminance.png",
+  "metadata": null,
+  "name": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre",
+  "resources": {
+    "originalImage": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre_original.png",
+    "croppedImage": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre_cropped.png",
+    "thumbnailImage": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre_thumbnail.png",
+    "luminanceImage": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre_luminance.png"
+  },
+  "created": 1792381901498,
+  "updated": 1792381901498
+}

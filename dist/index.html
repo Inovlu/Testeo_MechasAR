@@ -1,0 +1,302 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mechas WebAR - UNSAM</title><meta itemprop="name" content="Mechas WebAR - UNSAM"><meta name="twitter:title" content="Mechas WebAR - UNSAM"><meta property="og:title" content="Mechas WebAR - UNSAM"><meta property="og:site_name" content="Mechas WebAR - UNSAM"><meta name="description" content="Experiencia de Realidad Aumentada - Mechas UNSAM"><meta itemprop="description" content="Experiencia de Realidad Aumentada - Mechas UNSAM"><meta property="og:description" content="Experiencia de Realidad Aumentada - Mechas UNSAM"><meta name="twitter:description" content="Experiencia de Realidad Aumentada - Mechas UNSAM"><script crossorigin="anonymous" src="./external/runtime/runtime.js"></script><script crossorigin="anonymous" src="./external/xr/xr.js" async="true" data-preload-chunks="face, slam"></script><style>* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #000;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Contenedor principal de la pantalla de carga */
+    #custom-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #111a2e 0%, #080d17 70%, #03060a 100%);
+      color: #fff;
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    #custom-loader.loader-hidden {
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(1.05);
+    }
+
+    /* Cuadrícula sutil de fondo */
+    .loader-grid {
+      position: absolute;
+      inset: 0;
+      background-size: 40px 40px;
+      background-image: 
+        linear-gradient(to right, rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+      pointer-events: none;
+    }
+
+    /* Caja de contenido central */
+    .loader-card {
+      position: relative;
+      z-index: 2;
+      width: 90%;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 24px;
+      background: rgba(13, 22, 38, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 20px;
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 240, 255, 0.1);
+    }
+
+    /* Animación de radar AR */
+    .radar-wrapper {
+      position: relative;
+      width: 90px;
+      height: 90px;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .radar-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1.5px solid rgba(0, 240, 255, 0.25);
+    }
+
+    .ring-1 {
+      width: 100%;
+      height: 100%;
+      border-style: dashed;
+      animation: rotateRing 14s linear infinite;
+    }
+
+    .ring-2 {
+      width: 65%;
+      height: 65%;
+      border-color: rgba(0, 240, 255, 0.4);
+    }
+
+    .radar-dot {
+      width: 12px;
+      height: 12px;
+      background: #00f0ff;
+      border-radius: 50%;
+      box-shadow: 0 0 16px #00f0ff;
+      animation: pulseDot 2s ease-in-out infinite;
+    }
+
+    .radar-sweep {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      top: 0;
+      right: 0;
+      background: linear-gradient(135deg, rgba(0, 240, 255, 0.4) 0%, transparent 70%);
+      transform-origin: bottom left;
+      border-radius: 100% 0 0 0;
+      animation: sweepRadar 3s linear infinite;
+    }
+
+    @keyframes rotateRing {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes sweepRadar {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { transform: scale(0.9); opacity: 0.8; }
+      50% { transform: scale(1.2); opacity: 1; }
+    }
+
+    /* Etiquetas de texto */
+    .loader-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #00f0ff;
+      background: rgba(0, 240, 255, 0.1);
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .loader-title {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      color: #ffffff;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    .loader-status {
+      font-size: 13px;
+      color: #94a3b8;
+      min-height: 20px;
+      margin-bottom: 20px;
+      transition: color 0.3s;
+    }
+
+    /* Barra de progreso */
+    .progress-box {
+      width: 100%;
+      transition: opacity 0.3s ease;
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #00b4d8 0%, #00f0ff 100%);
+      box-shadow: 0 0 12px rgba(0, 240, 255, 0.7);
+      border-radius: 10px;
+      transition: width 0.2s cubic-bezier(0.1, 0.8, 0.2, 1);
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 12px;
+    }
+
+    .progress-stage {
+      color: #64748b;
+      font-weight: 500;
+    }
+
+    .progress-percent {
+      color: #00f0ff;
+      font-weight: 700;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    /* Botón "Comenzar Búsqueda" */
+    .start-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 16px 24px;
+      background: linear-gradient(135deg, #00d2ff 0%, #0077ff 100%);
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      box-shadow: 0 0 25px rgba(0, 210, 255, 0.5), 0 8px 16px rgba(0, 0, 0, 0.3);
+      animation: btnAppear 0.5s cubic-bezier(0.16, 1, 0.3, 1), btnPulse 2.5s ease-in-out infinite;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .start-btn:active {
+      transform: scale(0.97);
+    }
+
+    @keyframes btnAppear {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes btnPulse {
+      0%, 100% {
+        box-shadow: 0 0 25px rgba(0, 210, 255, 0.5), 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+      50% {
+        box-shadow: 0 0 35px rgba(0, 210, 255, 0.8), 0 8px 20px rgba(0, 0, 0, 0.4);
+      }
+    }
+
+    /* Estilos específicos para la vista Desktop (QR) */
+    .qr-description {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 16px;
+      line-height: 1.5;
+      max-width: 280px;
+    }
+
+    .qr-wrapper {
+      position: relative;
+      background: #ffffff;
+      padding: 12px;
+      border-radius: 16px;
+      box-shadow: 0 0 30px rgba(0, 240, 255, 0.35);
+      border: 2px solid rgba(0, 240, 255, 0.4);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qr-image {
+      width: 180px;
+      height: 180px;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .desktop-bypass-btn {
+      background: none;
+      border: none;
+      color: #64748b;
+      font-size: 12px;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-top: 6px;
+      transition: color 0.2s;
+    }
+
+    .desktop-bypass-btn:hover {
+      color: #00f0ff;
+    }</style></head><body><div id="custom-loader"><div class="loader-grid"></div><div class="loader-card"><div id="mobile-view" style="width: 100%; display: flex; flex-direction: column; align-items: center;"><div class="radar-wrapper"><div class="radar-ring ring-1"></div><div class="radar-ring ring-2"></div><div class="radar-sweep"></div><div class="radar-dot"></div></div><span class="loader-badge">UNSAM • 21 MECHAS AR</span><h1 class="loader-title">Mechas AR</h1><p class="loader-status" id="loader-status">Iniciando sistemas...</p><div class="progress-box" id="progress-box"><div class="progress-bar-track"><div class="progress-bar-fill" id="progress-fill"></div></div><div class="progress-meta"><span class="progress-stage" id="progress-stage">Conectando...</span> <span class="progress-percent" id="progress-percent">0%</span></div></div><button id="start-btn" class="start-btn" type="button"><span>COMENZAR BÚSQUEDA</span> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></div><div id="desktop-view" style="display: none; width: 100%; flex-direction: column; align-items: center;"><span class="loader-badge">EXPERIENCIA MÓVIL • 21 MECHAS</span><h1 class="loader-title">Mechas AR</h1><p class="qr-description">Escanea este código QR con la cámara de tu celular para ingresar a la experiencia y explorar los 21 mechas.</p><div class="qr-wrapper"><img id="qr-image" class="qr-image" alt="Código QR de la experiencia AR"/></div><button id="desktop-bypass-btn" class="desktop-bypass-btn" type="button">Continuar en este navegador</button></div></div></div><script src="bundle.js"></script></body></html>

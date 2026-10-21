@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 322,
+    "left": 0,
+    "width": 8142,
+    "height": 10856,
+    "isRotated": false,
+    "originalWidth": 8142,
+    "originalHeight": 11500
+  },
+  "imagePath": "image-targets/SILVA_FRANCISCO_DISENO_V1_nombre_luminance.png",
+  "metadata": null,
+  "name": "SILVA_FRANCISCO_DISENO_V1_nombre",
+  "resources": {
+    "originalImage": "SILVA_FRANCISCO_DISENO_V1_nombre_original.png",
+    "croppedImage": "SILVA_FRANCISCO_DISENO_V1_nombre_cropped.png",
+    "thumbnailImage": "SILVA_FRANCISCO_DISENO_V1_nombre_thumbnail.png",
+    "luminanceImage": "SILVA_FRANCISCO_DISENO_V1_nombre_luminance.png"
+  },
+  "created": 1792381953030,
+  "updated": 1792381953030
+}

@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 266,
+    "left": 0,
+    "width": 8121,
+    "height": 10828,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 11360
+  },
+  "imagePath": "image-targets/LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre_luminance.png",
+  "metadata": null,
+  "name": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre",
+  "resources": {
+    "originalImage": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre_original.png",
+    "croppedImage": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre_cropped.png",
+    "thumbnailImage": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre_thumbnail.png",
+    "luminanceImage": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre_luminance.png"
+  },
+  "created": 1792381921997,
+  "updated": 1792381921997
+}

@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 3,
+    "width": 8115,
+    "height": 10820,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 10820
+  },
+  "imagePath": "image-targets/Virna_Vianello MECHA_diseño_V2_nombre_luminance.png",
+  "metadata": null,
+  "name": "Virna_Vianello MECHA_diseño_V2_nombre",
+  "resources": {
+    "originalImage": "Virna_Vianello MECHA_diseño_V2_nombre_original.png",
+    "croppedImage": "Virna_Vianello MECHA_diseño_V2_nombre_cropped.png",
+    "thumbnailImage": "Virna_Vianello MECHA_diseño_V2_nombre_thumbnail.png",
+    "luminanceImage": "Virna_Vianello MECHA_diseño_V2_nombre_luminance.png"
+  },
+  "created": 1792381967836,
+  "updated": 1792381967836
+}

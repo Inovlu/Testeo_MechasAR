@@ -1,0 +1,1280 @@
+{
+  "objects": {
+    "eb6ac4ac-6604-4814-80ed-33a95b77c314": {
+      "id": "eb6ac4ac-6604-4814-80ed-33a95b77c314",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Piputto_Facundo_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Piputto_Facundo_optimizado.glb",
+      "order": 4.272350041433786,
+      "prefab": true
+    },
+    "138126aa-3ee6-4487-85e8-35b33d7a2037": {
+      "id": "138126aa-3ee6-4487-85e8-35b33d7a2037",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Virna_Vianello_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Virna_Vianello_optimizado.glb",
+      "order": 32.30321459491292,
+      "prefab": true
+    },
+    "aa13324f-8349-42ae-b88e-9d778789da7b": {
+      "id": "aa13324f-8349-42ae-b88e-9d778789da7b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Violi_Luca_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Violi_Luca_optimizado.glb",
+      "order": 31.04513088951955,
+      "prefab": true
+    },
+    "28f9d87c-c015-45a1-8ecf-741c0989be63": {
+      "id": "28f9d87c-c015-45a1-8ecf-741c0989be63",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Sofi_Cravero_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Sofi_Cravero_optimizado.glb",
+      "order": 29.919596347988115,
+      "prefab": true
+    },
+    "8cc885d2-c821-47ae-949a-53469100b171": {
+      "id": "8cc885d2-c821-47ae-949a-53469100b171",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Sadran_Agustin_optimizados.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Sadran_Agustin_optimizados.glb",
+      "order": 28.360627745412685,
+      "prefab": true
+    },
+    "e8ab284c-a181-48cf-a9c5-1e72433c5da8": {
+      "id": "e8ab284c-a181-48cf-a9c5-1e72433c5da8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Roque_Casarella_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Roque_Casarella_optimizado.glb",
+      "order": 27.10221206065644,
+      "prefab": true
+    },
+    "836b2afe-7605-4eb7-b201-057114c90bf0": {
+      "id": "836b2afe-7605-4eb7-b201-057114c90bf0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Roman_Brucoli_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Roman_Brucoli_optimizado.glb",
+      "order": 25.267994460348138,
+      "prefab": true
+    },
+    "92236c84-ce9c-4af1-9668-886db14b2cb3": {
+      "id": "92236c84-ce9c-4af1-9668-886db14b2cb3",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Ramos_Melody_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Ramos_Melody_optimizado.glb",
+      "order": 23.714163097304056,
+      "prefab": true
+    },
+    "bb97133c-15bc-4a26-b657-60861089ca84": {
+      "id": "bb97133c-15bc-4a26-b657-60861089ca84",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Mamciz_Pedro_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Mamciz_Pedro_optimizado.glb",
+      "order": 20.899177229491563,
+      "prefab": true
+    },
+    "b17eafee-6913-4f90-b9db-12ea0fff2f5f": {
+      "id": "b17eafee-6913-4f90-b9db-12ea0fff2f5f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Maite_Rodriguez_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Maite_Rodriguez_optimizado.glb",
+      "order": 19.375487063359618,
+      "prefab": true
+    },
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.4038940050501252
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        0,
+        2,
+        3
+      ],
+      "rotation": [
+        0.0004436887233141012,
+        0.9659425615285845,
+        -0.25875089860082223,
+        0.0016563336561801576
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 1.0308214152219775
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.6644431107322474
+    },
+    "7635fbf0-2c30-4b73-b5f1-09d9beda6f68": {
+      "id": "7635fbf0-2c30-4b73-b5f1-09d9beda6f68",
+      "position": [
+        24,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Maite_Rodriguez",
+      "imageTarget": {
+        "name": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre"
+      },
+      "order": 20.211779862522736
+    },
+    "e975d504-e8a7-4e33-828c-7eccaea49922": {
+      "id": "e975d504-e8a7-4e33-828c-7eccaea49922",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Maite_Rodriguez_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "b17eafee-6913-4f90-b9db-12ea0fff2f5f",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "7635fbf0-2c30-4b73-b5f1-09d9beda6f68",
+      "components": {}
+    },
+    "3941ed87-3f25-4d3a-aafb-6d9929523067": {
+      "id": "3941ed87-3f25-4d3a-aafb-6d9929523067",
+      "position": [
+        26,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Mamciz_Pedro",
+      "imageTarget": {
+        "name": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre"
+      },
+      "order": 21.216492742343558
+    },
+    "efca2bc4-1493-4665-95c2-9c725a50facb": {
+      "id": "efca2bc4-1493-4665-95c2-9c725a50facb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Mamciz_Pedro_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "bb97133c-15bc-4a26-b657-60861089ca84",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "3941ed87-3f25-4d3a-aafb-6d9929523067",
+      "components": {},
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ed927a5c-4470-41b3-9c6f-d34714f6323a": {
+      "id": "ed927a5c-4470-41b3-9c6f-d34714f6323a",
+      "position": [
+        28,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Ramos_Melody",
+      "imageTarget": {
+        "name": "MELODY_RAMOS_MECHA_diseno_V4_nombre"
+      },
+      "order": 22.397802203949166
+    },
+    "710c1b3e-8bee-4d91-a3b6-c9121903f3ef": {
+      "id": "710c1b3e-8bee-4d91-a3b6-c9121903f3ef",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Ramos_Melody_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "92236c84-ce9c-4af1-9668-886db14b2cb3",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "ed927a5c-4470-41b3-9c6f-d34714f6323a",
+      "components": {},
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "37de08b3-11e0-49fc-893f-f9aa622988d4": {
+      "id": "37de08b3-11e0-49fc-893f-f9aa622988d4",
+      "position": [
+        30,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Roman_Brucoli",
+      "imageTarget": {
+        "name": "E6-K22B_BrucoliRoman_Render_diseno_V1_nombre"
+      },
+      "order": 24.30819552286154
+    },
+    "1a77f4a2-2750-4fde-8802-6e393279ebd9": {
+      "id": "1a77f4a2-2750-4fde-8802-6e393279ebd9",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Roman_Brucoli_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "836b2afe-7605-4eb7-b201-057114c90bf0",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "37de08b3-11e0-49fc-893f-f9aa622988d4",
+      "components": {}
+    },
+    "7b4814c0-7c8e-4518-bcf7-21839b53e686": {
+      "id": "7b4814c0-7c8e-4518-bcf7-21839b53e686",
+      "position": [
+        32,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Roque_Casarella",
+      "imageTarget": {
+        "name": "Roque_Casarella-MECHA_diseno_v1_nombre"
+      },
+      "order": 26.114191216570784
+    },
+    "0e5430bf-abb8-4311-96f8-c8f9a8775e54": {
+      "id": "0e5430bf-abb8-4311-96f8-c8f9a8775e54",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Roque_Casarella_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "e8ab284c-a181-48cf-a9c5-1e72433c5da8",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "7b4814c0-7c8e-4518-bcf7-21839b53e686",
+      "components": {}
+    },
+    "86cf9133-a60f-49cb-8a91-952b7f9a7473": {
+      "id": "86cf9133-a60f-49cb-8a91-952b7f9a7473",
+      "position": [
+        34,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Sadran_Agustin",
+      "imageTarget": {
+        "name": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre"
+      },
+      "order": 27.278146318616972
+    },
+    "aabc85d3-ac62-4587-8bcb-dca347ced1f5": {
+      "id": "aabc85d3-ac62-4587-8bcb-dca347ced1f5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Sadran_Agustin_optimizados.glb",
+      "instanceData": {
+        "instanceOf": "8cc885d2-c821-47ae-949a-53469100b171",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "86cf9133-a60f-49cb-8a91-952b7f9a7473",
+      "components": {}
+    },
+    "ef062776-26f9-42fa-a334-b350a470b1db": {
+      "id": "ef062776-26f9-42fa-a334-b350a470b1db",
+      "position": [
+        34,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Sofi_Cravero",
+      "imageTarget": {
+        "name": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre"
+      },
+      "order": 29.055786727478214
+    },
+    "334e6a68-5d6a-479c-a3c9-a70363bc8db0": {
+      "id": "334e6a68-5d6a-479c-a3c9-a70363bc8db0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Sofi_Cravero_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "28f9d87c-c015-45a1-8ecf-741c0989be63",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "ef062776-26f9-42fa-a334-b350a470b1db",
+      "components": {}
+    },
+    "7670ea5f-63dc-44a2-9b1c-c2aa71b62e01": {
+      "id": "7670ea5f-63dc-44a2-9b1c-c2aa71b62e01",
+      "position": [
+        36,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Violi_Luca",
+      "imageTarget": {
+        "name": "LUCA_VIOLI_MECHATANA-MECHA_diseno_V2_nombre"
+      },
+      "order": 30.464767823140782
+    },
+    "d75b0c79-0d5e-4eed-994b-4f3409402f4c": {
+      "id": "d75b0c79-0d5e-4eed-994b-4f3409402f4c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Violi_Luca_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "aa13324f-8349-42ae-b88e-9d778789da7b",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "7670ea5f-63dc-44a2-9b1c-c2aa71b62e01",
+      "components": {}
+    },
+    "48f67f10-54ae-4f7b-a30b-5085a2326240": {
+      "id": "48f67f10-54ae-4f7b-a30b-5085a2326240",
+      "position": [
+        38,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Virna_Vianello",
+      "imageTarget": {
+        "name": "Virna_Vianello MECHA_diseño_V2_nombre"
+      },
+      "order": 32.351122763671064
+    },
+    "2db40658-9c0c-43e4-8912-4d7747925eb5": {
+      "id": "2db40658-9c0c-43e4-8912-4d7747925eb5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Virna_Vianello_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "138126aa-3ee6-4487-85e8-35b33d7a2037",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "48f67f10-54ae-4f7b-a30b-5085a2326240",
+      "components": {}
+    },
+    "6336e988-6511-471e-be6a-54c88096f20a": {
+      "id": "6336e988-6511-471e-be6a-54c88096f20a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Piputto_Facundo",
+      "imageTarget": {
+        "name": "FACUNDO_PIPUTTO_MECHA_diseno_V2_nombre"
+      },
+      "order": 33.788787882413445
+    },
+    "703450f1-6960-45a3-92db-c9bf716f91d6": {
+      "id": "703450f1-6960-45a3-92db-c9bf716f91d6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Piputto_Facundo_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "eb6ac4ac-6604-4814-80ed-33a95b77c314",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "6336e988-6511-471e-be6a-54c88096f20a",
+      "components": {}
+    },
+    "e1f96dfe-407a-4e25-91fc-997025dcffb7": {
+      "id": "e1f96dfe-407a-4e25-91fc-997025dcffb7",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Irina_Silva_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Irina_Silva_optimizado.glb",
+      "order": 18.294893169260835,
+      "prefab": true
+    },
+    "79b5e913-8f23-4a94-9a38-08d06a438caa": {
+      "id": "79b5e913-8f23-4a94-9a38-08d06a438caa",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Francisco_Silva_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Francisco_Silva_optimizado.glb",
+      "order": 16.315715066104644,
+      "prefab": true
+    },
+    "74b8848a-628d-4f80-9be4-7170309f08f1": {
+      "id": "74b8848a-628d-4f80-9be4-7170309f08f1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Fran_Rizzo_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fran_Rizzo_optimizado.glb",
+      "order": 14.626620427176551,
+      "prefab": true
+    },
+    "a78d7fe2-6366-49c0-a33c-7ac801dfb389": {
+      "id": "a78d7fe2-6366-49c0-a33c-7ac801dfb389",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Fede_Pracias_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fede_Pracias_optimizado.glb",
+      "order": 12.93592161731521,
+      "prefab": true
+    },
+    "d2dc8d3b-1ef1-4600-be37-93510b738ce1": {
+      "id": "d2dc8d3b-1ef1-4600-be37-93510b738ce1",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Cami_Casolati_optimizado.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Cami_Casolati_optimizado.glb",
+      "order": 11.632712460309161,
+      "prefab": true
+    },
+    "1c6e565c-6cc2-4441-b5b1-7d6cee05bbd7": {
+      "id": "1c6e565c-6cc2-4441-b5b1-7d6cee05bbd7",
+      "position": [
+        14,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Cami_Casolati",
+      "imageTarget": {
+        "name": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre"
+      },
+      "order": 12.048545390358669
+    },
+    "1e81b19c-c11d-4037-9b64-52857b9a6d2a": {
+      "id": "1e81b19c-c11d-4037-9b64-52857b9a6d2a",
+      "position": [
+        16,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Fede_Pracias",
+      "imageTarget": {
+        "name": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre"
+      },
+      "order": 13.530330425655048
+    },
+    "7654fd0b-42a5-418d-afd2-dfc106fdc6bb": {
+      "id": "7654fd0b-42a5-418d-afd2-dfc106fdc6bb",
+      "position": [
+        18,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Fran_Rizzo",
+      "imageTarget": {
+        "name": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre"
+      },
+      "order": 15.465247024335154
+    },
+    "e44f9854-3769-4ee2-9e32-1d42380c6ac9": {
+      "id": "e44f9854-3769-4ee2-9e32-1d42380c6ac9",
+      "position": [
+        20,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Francisco_Silva",
+      "imageTarget": {
+        "name": "SILVA_FRANCISCO_DISENO_V1_nombre"
+      },
+      "order": 16.958585678595767
+    },
+    "8d138b45-1388-4812-a3fe-bbcd03ac1cc0": {
+      "id": "8d138b45-1388-4812-a3fe-bbcd03ac1cc0",
+      "position": [
+        22,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Irina_Silva",
+      "imageTarget": {
+        "name": "SILVA_IRINA_MECHA.diseno_V4_nombre"
+      },
+      "order": 18.80534928965043
+    },
+    "f0613d71-16c2-4632-8848-ecd2cadde295": {
+      "id": "f0613d71-16c2-4632-8848-ecd2cadde295",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Cami_Casolati_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "d2dc8d3b-1ef1-4600-be37-93510b738ce1",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "1c6e565c-6cc2-4441-b5b1-7d6cee05bbd7",
+      "components": {}
+    },
+    "1fed5ff9-9370-46e8-ac4c-286e87602103": {
+      "id": "1fed5ff9-9370-46e8-ac4c-286e87602103",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Fede_Pracias_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "a78d7fe2-6366-49c0-a33c-7ac801dfb389",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "1e81b19c-c11d-4037-9b64-52857b9a6d2a",
+      "components": {}
+    },
+    "053cc79c-9a9c-4404-bf0d-d62544af99b6": {
+      "id": "053cc79c-9a9c-4404-bf0d-d62544af99b6",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Fran_Rizzo_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "74b8848a-628d-4f80-9be4-7170309f08f1",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "7654fd0b-42a5-418d-afd2-dfc106fdc6bb",
+      "components": {}
+    },
+    "413b1961-1cb8-487e-bfc5-b715dc7d0cf4": {
+      "id": "413b1961-1cb8-487e-bfc5-b715dc7d0cf4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Francisco_Silva_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "79b5e913-8f23-4a94-9a38-08d06a438caa",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "e44f9854-3769-4ee2-9e32-1d42380c6ac9",
+      "components": {}
+    },
+    "d1fde031-6168-4d0e-bb46-03ef8a40ad8b": {
+      "id": "d1fde031-6168-4d0e-bb46-03ef8a40ad8b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "name": "Irina_Silva_optimizado.glb",
+      "instanceData": {
+        "instanceOf": "e1f96dfe-407a-4e25-91fc-997025dcffb7",
+        "deletions": {},
+        "children": {}
+      },
+      "parentId": "8d138b45-1388-4812-a3fe-bbcd03ac1cc0",
+      "components": {}
+    }
+  },
+  "spaces": {
+    "88453035-dc0f-486d-868a-8ff7c2fda864": {
+      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "name": "Default Space",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+    }
+  },
+  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+}

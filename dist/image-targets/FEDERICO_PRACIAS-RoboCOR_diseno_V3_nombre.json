@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 311,
+    "left": 0,
+    "width": 8139,
+    "height": 10852,
+    "isRotated": false,
+    "originalWidth": 8139,
+    "originalHeight": 11474
+  },
+  "imagePath": "image-targets/FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre_luminance.png",
+  "metadata": null,
+  "name": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre",
+  "resources": {
+    "originalImage": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre_original.png",
+    "croppedImage": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre_cropped.png",
+    "thumbnailImage": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre_thumbnail.png",
+    "luminanceImage": "FEDERICO_PRACIAS-RoboCOR_diseno_V3_nombre_luminance.png"
+  },
+  "created": 1792381906392,
+  "updated": 1792381906392
+}

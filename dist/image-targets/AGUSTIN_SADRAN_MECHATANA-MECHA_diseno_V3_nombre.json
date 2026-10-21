@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 311,
+    "left": 0,
+    "width": 8147,
+    "height": 10862,
+    "isRotated": false,
+    "originalWidth": 8147,
+    "originalHeight": 11485
+  },
+  "imagePath": "image-targets/AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre_luminance.png",
+  "metadata": null,
+  "name": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre",
+  "resources": {
+    "originalImage": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre_original.png",
+    "croppedImage": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre_cropped.png",
+    "thumbnailImage": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre_thumbnail.png",
+    "luminanceImage": "AGUSTIN_SADRAN_MECHATANA-MECHA_diseno_V3_nombre_luminance.png"
+  },
+  "created": 1792381851020,
+  "updated": 1792381851020
+}

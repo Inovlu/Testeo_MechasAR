@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 326,
+    "left": 0,
+    "width": 8153,
+    "height": 10870,
+    "isRotated": false,
+    "originalWidth": 8153,
+    "originalHeight": 11524
+  },
+  "imagePath": "image-targets/MELODY_RAMOS_MECHA_diseno_V4_nombre_luminance.png",
+  "metadata": null,
+  "name": "MELODY_RAMOS_MECHA_diseno_V4_nombre",
+  "resources": {
+    "originalImage": "MELODY_RAMOS_MECHA_diseno_V4_nombre_original.png",
+    "croppedImage": "MELODY_RAMOS_MECHA_diseno_V4_nombre_cropped.png",
+    "thumbnailImage": "MELODY_RAMOS_MECHA_diseno_V4_nombre_thumbnail.png",
+    "luminanceImage": "MELODY_RAMOS_MECHA_diseno_V4_nombre_luminance.png"
+  },
+  "created": 1792381930633,
+  "updated": 1792381930633
+}

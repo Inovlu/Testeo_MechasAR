@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 325,
+    "left": 0,
+    "width": 8188,
+    "height": 10917,
+    "isRotated": false,
+    "originalWidth": 8188,
+    "originalHeight": 11569
+  },
+  "imagePath": "image-targets/FRANCISCO_RIZZO_MECHA_diseno_V1_nombre_luminance.png",
+  "metadata": null,
+  "name": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre",
+  "resources": {
+    "originalImage": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre_original.png",
+    "croppedImage": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre_cropped.png",
+    "thumbnailImage": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre_thumbnail.png",
+    "luminanceImage": "FRANCISCO_RIZZO_MECHA_diseno_V1_nombre_luminance.png"
+  },
+  "created": 1792381911572,
+  "updated": 1792381911572
+}

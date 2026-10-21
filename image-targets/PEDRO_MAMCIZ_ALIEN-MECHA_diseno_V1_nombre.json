@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 332,
+    "left": 0,
+    "width": 8204,
+    "height": 10938,
+    "isRotated": false,
+    "originalWidth": 8204,
+    "originalHeight": 11603
+  },
+  "imagePath": "image-targets/PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre_luminance.png",
+  "metadata": null,
+  "name": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre",
+  "resources": {
+    "originalImage": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre_original.png",
+    "croppedImage": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre_cropped.png",
+    "thumbnailImage": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre_thumbnail.png",
+    "luminanceImage": "PEDRO_MAMCIZ_ALIEN-MECHA_diseno_V1_nombre_luminance.png"
+  },
+  "created": 1792381940877,
+  "updated": 1792381940877
+}

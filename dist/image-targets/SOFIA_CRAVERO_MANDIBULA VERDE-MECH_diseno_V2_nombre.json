@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 296,
+    "left": 0,
+    "width": 8121,
+    "height": 10828,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 11420
+  },
+  "imagePath": "image-targets/SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre_luminance.png",
+  "metadata": null,
+  "name": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre",
+  "resources": {
+    "originalImage": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre_original.png",
+    "croppedImage": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre_cropped.png",
+    "thumbnailImage": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre_thumbnail.png",
+    "luminanceImage": "SOFIA_CRAVERO_MANDIBULA VERDE-MECH_diseno_V2_nombre_luminance.png"
+  },
+  "created": 1792381962227,
+  "updated": 1792381962227
+}

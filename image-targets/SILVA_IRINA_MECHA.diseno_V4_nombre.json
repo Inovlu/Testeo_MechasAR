@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 330,
+    "left": 0,
+    "width": 8151,
+    "height": 10868,
+    "isRotated": false,
+    "originalWidth": 8151,
+    "originalHeight": 11528
+  },
+  "imagePath": "image-targets/SILVA_IRINA_MECHA.diseno_V4_nombre_luminance.png",
+  "metadata": null,
+  "name": "SILVA_IRINA_MECHA.diseno_V4_nombre",
+  "resources": {
+    "originalImage": "SILVA_IRINA_MECHA.diseno_V4_nombre_original.png",
+    "croppedImage": "SILVA_IRINA_MECHA.diseno_V4_nombre_cropped.png",
+    "thumbnailImage": "SILVA_IRINA_MECHA.diseno_V4_nombre_thumbnail.png",
+    "luminanceImage": "SILVA_IRINA_MECHA.diseno_V4_nombre_luminance.png"
+  },
+  "created": 1792381958355,
+  "updated": 1792381958355
+}

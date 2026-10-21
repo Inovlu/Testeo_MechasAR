@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 243,
+    "left": 0,
+    "width": 8121,
+    "height": 10828,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 11315
+  },
+  "imagePath": "image-targets/MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre_luminance.png",
+  "metadata": null,
+  "name": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre",
+  "resources": {
+    "originalImage": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre_original.png",
+    "croppedImage": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre_cropped.png",
+    "thumbnailImage": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre_thumbnail.png",
+    "luminanceImage": "MAITE_RODRIGUEZ_NUR53-MECHA_diseno_V2_nombre_luminance.png"
+  },
+  "created": 1792381926319,
+  "updated": 1792381926319
+}

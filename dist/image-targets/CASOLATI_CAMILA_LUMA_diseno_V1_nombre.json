@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 730,
+    "width": 6660,
+    "height": 8880,
+    "isRotated": false,
+    "originalWidth": 8121,
+    "originalHeight": 8880
+  },
+  "imagePath": "image-targets/CASOLATI_CAMILA_LUMA_diseno_V1_nombre_luminance.png",
+  "metadata": null,
+  "name": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre",
+  "resources": {
+    "originalImage": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre_original.png",
+    "croppedImage": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre_cropped.png",
+    "thumbnailImage": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre_thumbnail.png",
+    "luminanceImage": "CASOLATI_CAMILA_LUMA_diseno_V1_nombre_luminance.png"
+  },
+  "created": 1792381888230,
+  "updated": 1792381888230
+}
